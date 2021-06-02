@@ -236,10 +236,7 @@ def main():
     with multiprocessing.Pool(5) as p:
         p.starmap(prepare_hd_chapter, chapters)
     
-    # save_path = r"C:\Users\krish\Documents\GitHub\manhwa\temp\Queen Bee"
-    # for chapter_folder in os.scandir(save_path):
-    #     if os.path.isdir(chapter_folder):
-    #         prepare_hd_chapter(chapter_folder.path, save_path)
+    
     
     #cleanup
     # for object in os.scandir(save_path):
